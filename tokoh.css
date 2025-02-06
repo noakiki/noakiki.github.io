@@ -143,3 +143,40 @@ body{
     background: #ababab;
     color: #fff;
 }
+
+.nav {
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    background: #ababab;
+    color: #fff;
+}
+
+.button-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-home i {
+    margin-right: 8px;
+}
+
+.button-home:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button-home:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
